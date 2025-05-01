@@ -1,0 +1,785 @@
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-image: url(back1.jpeg) ;
+    background-size: 100%;
+    background-repeat: repeat-y;
+    animation: size5 35s ease-in 0s forwards;
+}
+
+.land {
+    background-color: wheat;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 0;
+}
+
+.img1 {
+    position: relative;
+    z-index: -2;
+}
+
+.img2 {
+    position: absolute;
+    transform: translateY(-34px);
+    z-index: 2;
+    animation: error 5s cubic-bezier(0, 0, 0.58, 2.24) 2s 1 both;
+}
+
+.img3 {
+    position: absolute;
+    transform: translateY(-34px);
+    border: 3px solid white;
+    animation: disappear1 6s ease-out 9s forwards;
+}
+
+.land {
+    animation: appear 4s ease-in-out 8s forwards;
+}
+
+.img4 {
+    position: absolute;
+    transform: translateY(-34px);
+    z-index: -1;
+    animation: disappear1 5s ease-out 15s forwards;
+}
+
+.img5 {
+    position: absolute;
+    transform: translateY(-34px);
+    z-index: -2;
+}
+
+.anchor{
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid orange;
+    background-color: wheat;
+    text-decoration: none;
+    color: rgb(255, 172, 18);
+    padding: 1px 6px 1px 6px;
+    position: absolute;
+    opacity: 0;
+    animation: disappear2 8s ease-in-out 4s forwards;
+    transform: translateY(250px);
+}
+
+.wait {
+    color: orange;
+    position: absolute;
+    font-size: 30px;
+    margin-top: 10px;
+    opacity: 0;
+    transform: translateY(280px);
+    animation: disappear2 8s ease-in-out 5s forwards;
+}
+
+.back {
+    background-color: rgb(217, 215, 250);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.img11 {
+    animation: move1 8s ease 18s forwards;
+}
+
+.img51 {
+    animation: move2 8s ease 18s forwards;
+
+}
+
+.welcome1 {
+    opacity: 0;
+    font-size: 50px;
+    align-self: self-start;
+    margin-left: 15px;
+    animation: colorchange 5s ease-in 21s forwards;
+    transform: translateY(220px);
+
+}
+
+.welcome3 {
+    opacity: 0;
+    font-size: 50px;
+    align-self: self-start;
+    margin-left: 15px;
+    animation: colorchange 5s ease-in 21s forwards;
+    transform: translateY(-220px);
+
+}
+
+.welcome2 {
+    opacity: 0;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    align-self: self-start;
+    margin-left: 15px;
+    animation: colorchange 5s ease-in 21s forwards;
+    transform: translateY(220px);
+}
+
+.welcome4 {
+    opacity: 0;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    align-self: self-start;
+    margin-left: 15px;
+    animation: colorchange 5s ease-in 21s forwards;
+    transform: translateY(-220px);
+}
+
+.changeland2 {
+    animation: disappear3 10s ease-out 26s forwards;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+    top: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    position: fixed;
+    z-index: 1;
+    animation: 
+    appear2 35s ease-in 0s forwards,
+    size1   35s ease-in 0s forwards;
+
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 15px;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+.img6{
+    height: 80px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+}
+.contact{
+    position: absolute;
+    right: 15px;
+}
+.aboutme{
+    position: absolute;
+    right: 100px;
+}
+.home{
+    position: absolute;
+    right: 200px;
+}
+.home a{
+    text-decoration: none;
+    color: white;
+}
+.aboutme a{
+    text-decoration: none;
+    color: white;
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+}
+.img7{
+    height: 60px;
+    width: 200px;
+    background-image: url(Untitled-6-1920x1280.jpg);
+    background-size: contain;
+}
+.img7:hover{
+    background-image: url(Untitled-6-1920x1280\ \(1\).jpg);
+    background-size: cover;
+}
+
+
+
+
+
+
+.section1{
+    
+    height: 75vh;
+    width: 75vw;
+    margin: 160px 12.5% 100px 12.5%;
+    display: flex;
+    animation: 
+    appear2 35s ease-in 0s forwards,
+    size1   35s ease-in 0s forwards;
+
+}
+.section11{
+    width: 100%;
+    height: 100%;
+    opacity: 0.25    ;
+    background-color: white;
+    border-radius: 5%;
+    position: relative;
+}
+.section12{
+    height: 75%;
+    width: 75%;
+    opacity: 1;
+    z-index: 0;
+    position: absolute;
+    display: flex;
+}
+.section121 img{
+    translate: 10PX;
+    
+}
+.section121{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: wheat;
+    margin: 15% 25px 0 10%  ;
+}
+.section122{
+    color: black;
+    font-size: 24px;
+    width: 70%;
+    margin: 11% 5px 0 0  ;
+    word-spacing: 5px;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;  
+
+}
+.sub{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.section2{
+    height: 75vh;
+    width: 75vw;
+    margin: 50px 12.5% 100px 12.5%;
+    display: flex;
+    animation: 
+    appear2 35s ease-in 0s forwards,
+    size1   35s ease-in 0s forwards;
+}
+.section21{
+    width: 100%;
+    height: 100%;
+    opacity: 0.25    ;
+    background-color: white;
+    border-radius: 5%;
+    position: relative;
+
+}
+.section22{
+    height: 75%;
+    width: 75%;
+    position: rel;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+
+}
+.section221{height: 200px;
+    width: 200px;
+    background-image: url(images.png);
+    background-size: cover;
+    background-position-x: -70px;
+    background-repeat: no-repeat;
+    z-index: 0;
+    position: absolute;
+    left: 12.5%;
+    border-radius: 50%;
+    margin: 10% 25px 0 10%;
+}
+
+.section222{
+    position: absolute;
+    left: 39%;
+    margin: 5% 0PX 0 0;
+    color: black;
+    font-size: 24px;
+    width: 45%;
+    height: 60vh;
+    word-spacing: 5px;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+}
+.contact1{
+    margin: 50px 12.5% 100px 12.5%;
+    animation: 
+    appear2 35s ease-in 0s forwards,
+    size1   35s ease-in 0s forwards;
+}
+.contact11{
+    height: 75vh;
+    width: 75vw;
+    opacity: 0.25 ;
+    background-color: white;
+    border-radius: 5%;
+    position: absolute;
+}
+.contact12{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.contact12 h2{
+    margin: 15% 5px 10px 20%;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.contact121 form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.contact1211{
+    max-height: 50px;
+    border-radius: 5px;
+    max-width: 150px;
+    margin: 5px 5px  0 20%;
+    text-overflow: ellipsis;
+}
+.contact1212{
+    max-height: 50px;
+    border-radius: 5px;
+    max-width: 150px;
+    margin: 5px 5px  0 20%;
+    text-overflow: ellipsis;
+}.contact1213{
+    border-radius: 5px;
+    margin: 5px 20%  0 20%;
+    text-overflow: ellipsis;
+}.contact1214{
+    max-height: 50px;
+    max-width: 110px;
+    border-radius: 5px;
+    margin: 5px 5px  0 20%;
+    text-overflow: ellipsis;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 50vh;
+    height: 10vh;
+    margin: 0;
+    animation:
+        appear2 35s ease-in 0s forwards,
+        size1   35s ease-in 0s forwards; ;
+    cursor: grab;
+}
+footer p{
+    margin: 5px;
+}
+.footeranc{
+    text-decoration: none;
+    color: white;
+}
+.footeranc:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+.contact1 :hover ~ .contact12{
+    color: deepskyblue;
+    
+}
+.home a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.aboutme a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.contact a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.img6:hover{
+    background-color: skyblue;
+    cursor: grabbing;
+}
+.intro span:hover{
+    
+    background-color: skyblue;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+/**/
+@media (max-width:1000px) {
+    body {
+        margin: 0;
+    }
+
+    .land {
+        background-color: wheat;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .img1 {
+        position: relative;
+        z-index: -2;
+        height: 250px;
+        width: 250px;
+    }
+
+    .img2 {
+        position: absolute;
+        transform: translateY(-17px);
+        z-index: 2;
+        height: 120px;
+        width: 220px;
+        animation: error 5s cubic-bezier(0, 0, 0.58, 2.24) 2s 1 both;
+    }
+
+    .img3 {
+        position: absolute;
+        height: 115px;
+        width: 215px;
+        transform: translateY(-17px);
+        border: 3px solid white;
+        animation: disappear1 6s ease-out 9s forwards;
+    }
+
+    .changeland {
+        animation: appear 4s ease-in-out 8s forwards;
+    }
+
+    .img4 {
+        position: absolute;
+        height: 120px;
+        width: 220px;
+        transform: translateY(-17px);
+        z-index: -1;
+        animation: disappear1 5s ease-out 15s forwards;
+    }
+
+    .img5 {
+        position: absolute;
+        height: 85px;
+        width: 120px;
+        transform: translateY(-17px);
+        z-index: -2;
+    }
+
+    .anchor {
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        border: 2px solid orange;
+        background-color: wheat;
+        text-decoration: none;
+        color: rgb(255, 172, 18);
+        padding: 1px 6px 1px 6px;
+        opacity: 0;
+        animation: disappear2 8s ease-in-out 4s forwards;
+    }
+
+    .wait {
+        color: orange;
+        font-size: 30px;
+        margin-top: 10px;
+        opacity: 0;
+        animation: disappear2 8s ease-in-out 5s forwards;
+    }
+
+    .back {
+        background-color: rgb(61, 214, 208);
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+    }
+
+    .img11 {
+        animation: move11 8s ease 18s forwards;
+    }
+
+    .img51 {
+        animation: move21 8s ease 18s forwards;
+
+    }
+
+    .img11 {
+        animation: move3 2s ease 18s forwards;
+    }
+
+
+
+    .welcome1 {
+        font-size: 20px;
+        opacity: 0;
+        align-self: center;
+        transform: translateY(0);
+        animation: colorchange 5s ease-in 21s forwards;
+
+    }
+
+    .welcome3 {
+        font-size: 20px;
+        opacity: 0;
+        align-self: center;
+        transform: translateY(0);
+        animation: colorchange 5s ease-in 21s forwards;
+
+
+    }
+
+    .welcome2 {
+        font-size: 20px;
+        opacity: 0;
+        align-self: center;
+        font-style: italic;
+        font-weight: bold;
+        transform: translateY(0);
+        animation: colorchange 5s ease-in 21s forwards;
+
+    }
+
+    .welcome4 {
+        font-size: 20px;
+        opacity: 0;
+        font-style: italic;
+        font-weight: bold;
+        align-self: center;
+        transform: translateY(0);
+        animation: colorchange 5s ease-in 21s forwards;
+
+
+    }
+
+    .changeland2 {
+        animation: disappear3 8s ease-out 26s forwards;
+    }
+
+    @keyframes move11 {
+        from {
+            transform: translate(0, -17PX);
+        }
+
+        to {
+            transform: translate(0, -17PX);
+        }
+
+    }
+
+    @keyframes move21 {
+        from {
+            transform: translate(0, -17PX);
+        }
+
+        to {
+            transform: translate(0, -17PX);
+        }
+
+    }
+
+}
+
+
+
+
+
+
+/*   */
+@keyframes error {
+    from {
+        z-index: 2;
+    }
+
+    to {
+        z-index: -3;
+        opacity: 0;
+    }
+
+}
+
+@keyframes disappear1 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        z-index: -3;
+    }
+}
+
+@keyframes disappear2 {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    65% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes move1 {
+    from {
+        transform: translate(0);
+    }
+
+    to {
+        transform: translatex(20vw);
+    }
+
+}
+
+@keyframes move2 {
+    from {
+        transform: translate(0, -34PX);
+    }
+
+    to {
+        transform: translate(20vw, -34PX);
+    }
+
+}
+
+@keyframes appear1 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes colorchange {
+    0% {
+        opacity: 0;
+        color: orange;
+    }
+
+    25% {
+        opacity: 1;
+        
+        color: orange;
+    }
+
+    50% {
+        opacity: 1;
+        color: orange;
+    }
+
+    75% {
+        opacity: 1;
+        background-color: orange;
+        color: #f5deb3;
+    }
+
+    100% {
+        opacity: 1;
+        background-color: orange;
+        color: wheat;
+    }
+
+}
+
+@keyframes disappear3 {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateX(-110vw);
+        opacity: 0;
+
+    }
+}
+
+@keyframes appear2{
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes size1{
+    0%{
+        display: none;
+    }
+    50%{
+        display: none;
+    }
+    80%{
+        display: none;
+    }
+    100%{
+        display: flex;
+    }
